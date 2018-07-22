@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<movimiento>
+	<clave>
+		<!--Identificador del cuadro-->
+		<id></id>
+		<!--Puede ser INICIO|INTERMEDIO|FINAL-->
+		<tipo></tipo>
+		<!--Identificador del cuadro que sigue en la secuencia-->
+		<siguienteclave></siguienteclave>
+		<!--Grados del servo 0 en este cuadro-->
+		<servo0></servo0>
+		<!--Grados del servo 1 en este cuadro-->
+		<servo1></servo1>
+		<!--Grados del servo 2 en este cuadro-->
+		<servo2></servo2>
+		<!--Grados del servo 3 en este cuadro-->
+		<servo3></servo3>
+		<!--Grados del servo 4 en este cuadro-->
+		<servo4></servo4>		
+	</clave>
+</movimiento>

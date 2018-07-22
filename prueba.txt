@@ -1,0 +1,102 @@
+<movimiento>
+     <clave>
+          <!--Identificador del cuadro-->
+          <id>1</id>
+          <!--Puede ser INICIO|INTERMEDIO|FINAL-->
+          <tipo>INICIO</tipo>
+          <!--Identificador del cuadro que sigue en la secuencia-->
+          <siguienteclave>2</siguienteclave>
+          <!--Grados del servo 0 en este cuadro-->
+          <servo0>0.0</servo0>
+          <!--Grados del servo 1 en este cuadro-->
+          <servo1>0.0</servo1>
+          <!--Grados del servo 2 en este cuadro-->
+          <servo2>0.0</servo2>
+          <!--Grados del servo 3 en este cuadro-->
+          <servo3>0.0</servo3>
+          <!--Grados del servo 4 en este cuadro-->
+          <servo4>10.0</servo4>
+          <!--Determina si el objeto ha sido tomado por el brazo-->
+          <objetoTomado>0</objetoTomado>
+     </clave>
+     <clave>
+          <!--Identificador del cuadro-->
+          <id>2</id>
+          <!--Puede ser INICIO|INTERMEDIO|FINAL-->
+          <tipo>INTERMEDIO</tipo>
+          <!--Identificador del cuadro que sigue en la secuencia-->
+          <siguienteclave>3</siguienteclave>
+          <!--Grados del servo 0 en este cuadro-->
+          <servo0>10.0</servo0>
+          <!--Grados del servo 1 en este cuadro-->
+          <servo1>45.0</servo1>
+          <!--Grados del servo 2 en este cuadro-->
+          <servo2>0.0</servo2>
+          <!--Grados del servo 3 en este cuadro-->
+          <servo3>0.0</servo3>
+          <!--Grados del servo 4 en este cuadro-->
+          <servo4>0.0</servo4>
+          <!--Determina si el objeto ha sido tomado por el brazo-->
+          <objetoTomado>0</objetoTomado>
+     </clave>
+     <clave>
+          <!--Identificador del cuadro-->
+          <id>3</id>
+          <!--Puede ser INICIO|INTERMEDIO|FINAL-->
+          <tipo>INTERMEDIO</tipo>
+          <!--Identificador del cuadro que sigue en la secuencia-->
+          <siguienteclave>4</siguienteclave>
+          <!--Grados del servo 0 en este cuadro-->
+          <servo0>45.0</servo0>
+          <!--Grados del servo 1 en este cuadro-->
+          <servo1>0.0</servo1>
+          <!--Grados del servo 2 en este cuadro-->
+          <servo2>0.0</servo2>
+          <!--Grados del servo 3 en este cuadro-->
+          <servo3>0.0</servo3>
+          <!--Grados del servo 4 en este cuadro-->
+          <servo4>10.0</servo4>
+          <!--Determina si el objeto ha sido tomado por el brazo-->
+          <objetoTomado>0</objetoTomado>
+     </clave>
+     <clave>
+          <!--Identificador del cuadro-->
+          <id>4</id>
+          <!--Puede ser INICIO|INTERMEDIO|FINAL-->
+          <tipo>FINAL</tipo>
+          <!--Identificador del cuadro que sigue en la secuencia-->
+          <siguienteclave>5</siguienteclave>
+          <!--Grados del servo 0 en este cuadro-->
+          <servo0>-30.0</servo0>
+          <!--Grados del servo 1 en este cuadro-->
+          <servo1>0.0</servo1>
+          <!--Grados del servo 2 en este cuadro-->
+          <servo2>0.0</servo2>
+          <!--Grados del servo 3 en este cuadro-->
+          <servo3>0.0</servo3>
+          <!--Grados del servo 4 en este cuadro-->
+          <servo4>10.0</servo4>
+          <!--Determina si el objeto ha sido tomado por el brazo-->
+          <objetoTomado>0</objetoTomado>
+     </clave>
+     <clave>
+          <!--Identificador del cuadro-->
+          <id>5</id>
+          <!--Puede ser INICIO|INTERMEDIO|FINAL-->
+          <tipo>FINAL</tipo>
+          <!--Identificador del cuadro que sigue en la secuencia-->
+          <siguienteclave>1</siguienteclave>
+          <!--Grados del servo 0 en este cuadro-->
+          <servo0>0.0</servo0>
+          <!--Grados del servo 1 en este cuadro-->
+          <servo1>0.0</servo1>
+          <!--Grados del servo 2 en este cuadro-->
+          <servo2>0.0</servo2>
+          <!--Grados del servo 3 en este cuadro-->
+          <servo3>0.0</servo3>
+          <!--Grados del servo 4 en este cuadro-->
+          <servo4>10.0</servo4>
+          <!--Determina si el objeto ha sido tomado por el brazo-->
+          <objetoTomado>0</objetoTomado>
+     </clave>
+</movimiento>

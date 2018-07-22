@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified"
+	xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="id" type="xs:integer"></xs:element>
+	<xs:element name="tipo" type="xs:string"></xs:element>
+	<xs:element name="clave">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:sequence>
+					<xs:element ref="id" />
+					<xs:element ref="tipo" />
+					<xs:element ref="servos" />
+				</xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="servos">
+		<xs:sequence>
+			<xs:element name="servo0" type="xs:integer" />
+			<xs:element name="servo1" type="xs:integer" />
+			<xs:element name="servo2" type="xs:integer" />
+			<xs:element name="servo3" type="xs:integer" />
+			<xs:element name="servo4" type="xs:integer" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="movimiento">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:sequence>
+					<xs:element ref="clave" maxOccurs="unbounded" />
+				</xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified"
+	xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="configuracion">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:sequence>
+					<xs:element ref="camara" />
+					<xs:element ref="grupo" />
+				</xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="grupo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nombre" type="xs:float" />
+				<xs:element name="pivotx" type="xs:float" />
+				<xs:element name="pivoty" type="xs:float" />
+				<xs:element name="pivotz" type="xs:float" />
+				<xs:element name="anguloinicial" type="xs:float" />
+				<xs:element name="rotacionmaxima" type="xs:float" />
+				<xs:element name="pasorotacion" type="xs:float" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="camara">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nombre" type="xs:float" />
+				<xs:element name="distanciacamaraobjetivo" type="xs:float" />
+				<xs:element name="distanciacamarainfo" type="xs:float" />
+				<xs:element name="pasorotacion" type="xs:float" />
+				<xs:element name="anguloxz" type="xs:float" />
+				<xs:element name="anguloxy" type="xs:float" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

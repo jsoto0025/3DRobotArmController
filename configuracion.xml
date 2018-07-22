@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuracion>
+	<grupo>
+		<nombre>Brazo</nombre>
+		<!--Coordenadas del centro de rotación de un grupo-->
+		<pivotx>0</pivotx>
+		<pivoty>19.2787</pivoty>
+		<pivotz>6.0017</pivotz>
+		<anguloinicial>0</anguloinicial>
+		<!--Angulo máximo de rotación de un servo-->	
+		<rotacionmaxima>90</rotacionmaxima>
+		<!--Incremento de los angulos-->
+		<pasorotacion>0.25</pasorotacion>
+	</grupo>
+	<grupo>
+		<nombre>AnteBrazo</nombre>
+		<!--Coordenadas del centro de rotación de un grupo-->
+		<pivotx>0</pivotx>
+		<pivoty>10.3376</pivoty>
+		<pivotz>5.9999</pivotz>
+		<anguloinicial>0</anguloinicial>
+		<!--Angulo máximo de rotación de un servo-->	
+		<rotacionmaxima>90</rotacionmaxima>
+		<!--Incremento de los angulos-->
+		<pasorotacion>0.25</pasorotacion>
+	</grupo>
+	<grupo>
+		<nombre>BaseHexagonal</nombre>
+		<!--Coordenadas del centro de rotación de un grupo-->
+		<pivotx>0</pivotx>
+		<pivoty>10.3376</pivoty>
+		<pivotz>5.9999</pivotz>
+		<anguloinicial>0</anguloinicial>
+		<!--Angulo máximo de rotación de un servo-->	
+		<rotacionmaxima>90</rotacionmaxima>
+		<!--Incremento de los angulos-->
+		<pasorotacion>0.25</pasorotacion>
+	</grupo>
+	<grupo>
+		<nombre>mano</nombre>
+		<!--Coordenadas del centro de rotación de un grupo-->
+		<pivotx>0</pivotx>
+		<pivoty>19.2850</pivoty>
+		<pivotz>15.7858</pivotz>
+		<anguloinicial>0</anguloinicial>
+		<!--Angulo máximo de rotación de un servo-->	
+		<rotacionmaxima>90</rotacionmaxima>
+		<!--Incremento de los angulos-->
+		<pasorotacion>0.25</pasorotacion>
+	</grupo>
+	<grupo>
+		<nombre>dedo1</nombre>
+		<!--Coordenadas del centro de rotación de un grupo-->
+		<pivotx>0</pivotx>
+		<pivoty>20.0799</pivoty>
+		<pivotz>22.9301</pivotz>
+		<anguloinicial>10</anguloinicial>
+		<!--Angulo máximo de rotación de un servo-->	
+		<rotacionmaxima>90</rotacionmaxima>
+		<!--Incremento de los angulos-->
+		<pasorotacion>0.25</pasorotacion>
+		
+	</grupo>
+	<grupo>
+		<nombre>dedo2</nombre>
+		<!--Coordenadas del centro de rotación de un grupo-->
+		<pivotx>0</pivotx>
+		<pivoty>20.0799</pivoty>
+		<pivotz>22.9301</pivotz>
+		<anguloinicial>10</anguloinicial>
+		<!--Angulo máximo de rotación de un servo-->	
+		<rotacionmaxima>90</rotacionmaxima>
+		<!--Incremento de los angulos-->
+		<pasorotacion>0.25</pasorotacion>
+		
+	</grupo>	
+	<camara>
+		<nombre>camaraprincipal</nombre>
+		<distanciacamaraobjetivo>40</distanciacamaraobjetivo>
+		<distanciacamarainfo>20</distanciacamarainfo>
+		<pasorotacion>3</pasorotacion>
+		<anguloxz>45</anguloxz>
+		<anguloxy>0</anguloxy>
+	</camara>
+	<objeto>
+		<nombre>bola</nombre>
+		<objetoPosX>-10</objetoPosX>
+		<objetoPosY>6</objetoPosY>
+		<objetoPosZ>20</objetoPosZ>
+	</objeto>
+	<puerto>
+		<tipo>serial</tipo>
+		<idpuerto>COM1</idpuerto>
+		<baudrate>2400</baudrate>
+	</puerto>
+</configuracion>
