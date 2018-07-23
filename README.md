@@ -1,20 +1,12 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+## Sistema para el control de movimientos complejos de  brazos robóticos.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Introducción 
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Controlar diferentes equipamientos robóticos mediante programas, no es una tarea muy difícil, pero si se vuelve confusa y poco funcional si el control de estos se realiza mediante interfaces de usuario de entrada y salida de información, como son los formularios. Por este motivo se hace necesario utilizar otras tecnologías para crear interfaces de usuarios más intuitivas y comprensibles para los usuarios operadores, y de esta forma obtener mejores resultados en el momento de controlar un robot mediante una interfase de software.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+La información para desarrollar este proyecto, la recolectamos principalmente de Internet, ya que el tema tratado no es muy comercial en nuestro medio y por tal motivo no se encuentran libros sobre este tema en el mercado nacional. Los recursos de información principales se encontraron en páginas dedicadas al desarrollo de juegos 3D, ya que la tecnología que se utilizo para desarrollar las interfaces del proyecto es la misma que utilizan las consolas de juegos actuales
+ 
+# Enlaces relacionados 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+- [YouTube](https://youtu.be/ajP1zs6GiQM)
+
